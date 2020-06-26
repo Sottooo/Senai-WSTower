@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WSTower</name>
+    </assembly>
+    <members>
+        <member name="M:WSTower.Controllers.JogadorController.Get">
+            <summary>
+            Retorna todos os jogadores.
+            </summary>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.JogadorController.Get(System.Int32)">
+            <summary>
+            Retorna um jogador por id.
+            </summary>
+            <param name="id"></param>
+            <returns>Jogador Object</returns>
+        </member>
+        <member name="M:WSTower.Controllers.JogadorController.Post(WSTower.Domains.Jogador)">
+            <summary>
+            Cadastra um usuario.
+            </summary>
+            <param name="jogador"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.JogadorController.Put(System.Int32,WSTower.Domains.Jogador)">
+            <summary>
+            Atualiza um jogador passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <param name="jogador"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.JogadorController.Delete(System.Int32)">
+            <summary>
+            Deleta um jogador passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Get">
+            <summary>
+            Lista todos os jogos
+            </summary>
+            <returns> 
+            Retorna a lista dos jogos e o status code 200 - Ok || code 400 - Bad Request
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Get(System.Int32)">
+            <summary>
+            Busca um jogo através do seu ID
+            </summary>
+            <param name="id">ID do jogo que será buscado</param>
+            <returns>Retorna um jogo buscado ou NotFound caso nenhum seja encontrado</returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Get(System.DateTime)">
+            <summary>
+            Busca um jogo através da data
+            </summary>
+            <param name="data">ID do jogo que será buscado</param>
+            <returns>Retorna um jogo buscado ou NotFound caso nenhum seja encontrado</returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="404">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Get(System.String)">
+            <summary>
+            Busca um jogo através da seleçao ou do estádio
+            </summary>
+            <param name="nome">ID do jogo que será buscado</param>
+            <returns>Retorna um jogo buscado ou NotFound caso nenhum seja encontrado</returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="404">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Post(WSTower.Domains.Jogo)">
+            <summary>
+            Cadastra um novo confronto
+            </summary>
+            <param name="jogo">Objeto novoJogo que será cadastrado</param>
+            <response code="201">Se o Jogo for cadastrado com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Put(System.Int32,WSTower.Domains.Jogo)">
+            <summary>
+            Atualiza um jogo pelo ID.
+            </summary>
+            <param name="id">ID do jogo que será buscado</param>
+            <param name="jogo">ID do jogo que será buscado</param>
+            <returns>null</returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.JogoController.Delete(System.Int32)">
+            <summary>
+            Deleta um jogo pelo ID.
+            </summary>
+            <param name="id">ID do jogo que será buscado</param>
+            <returns>null</returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="404">Erro em alguma parte da requisição</response>
+        </member>
+        <member name="M:WSTower.Controllers.LoginController.Login(WSTower.ViewModels.LoginViewModel)">
+            <summary>
+            Loga o usuario por email ou apelido
+            </summary>
+            <param name="user"></param>
+            <returns>token</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.Get">
+            <summary>
+            Retorna todas as seleções.
+            </summary>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.GetOrderByDescending">
+            <summary>
+            Retorna todas as seleções ordenada.
+            </summary>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.Get(System.Int32)">
+            <summary>
+            Retorna uma seleção por id.
+            </summary>
+            <param name="id"></param>
+            <returns>Selecao Object</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.Post(WSTower.Domains.Selecao)">
+            <summary>
+            Cadastra uma seleção.
+            </summary>
+            <param name="selecao"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.Put(System.Int32,WSTower.Domains.Selecao)">
+            <summary>
+            Atualiza uma seleção passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <param name="selecao"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.Delete(System.Int32)">
+            <summary>
+            Deleta uma seleção passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.UsuarioController.Get">
+            <summary>
+            Retorna todos os usuarios.
+            </summary>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.UsuarioController.Get(System.Int32)">
+            <summary>
+            Retorna um usuario por id.
+            </summary>
+            <param name="id"></param>
+            <returns>Usuario Object</returns>
+        </member>
+        <member name="M:WSTower.Controllers.UsuarioController.Post(WSTower.Domains.Usuario)">
+            <summary>
+            Cadastra um usuario.
+            </summary>
+            <param name="usuario"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.UsuarioController.Put(System.Int32,WSTower.Domains.Usuario)">
+            <summary>
+            Atualiza um usuario passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <param name="usuario"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Deleta um usuario passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <returns>null</returns>
+        </member>
+    </members>
+</doc>
