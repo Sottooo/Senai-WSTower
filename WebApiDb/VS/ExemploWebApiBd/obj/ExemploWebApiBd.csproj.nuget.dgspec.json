@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\Desktop\\Aulas-Senai-2020\\Aulas Lidiane\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj": {}
+    "C:\\Users\\vinic\\Desktop\\Senai-WSTower\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\Desktop\\Aulas-Senai-2020\\Aulas Lidiane\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj": {
+    "C:\\Users\\vinic\\Desktop\\Senai-WSTower\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Aulas-Senai-2020\\Aulas Lidiane\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Senai-WSTower\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj",
         "projectName": "ExemploWebApiBd",
-        "projectPath": "C:\\Users\\vinic\\Desktop\\Aulas-Senai-2020\\Aulas Lidiane\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj",
+        "projectPath": "C:\\Users\\vinic\\Desktop\\Senai-WSTower\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\Desktop\\Aulas-Senai-2020\\Aulas Lidiane\\WebApiDb\\VS\\ExemploWebApiBd\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\Senai-WSTower\\WebApiDb\\VS\\ExemploWebApiBd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",

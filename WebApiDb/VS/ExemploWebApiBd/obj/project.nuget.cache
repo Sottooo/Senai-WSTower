@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cc/RBd6ygDnk/3wWupt5gJyOmnEkrcEqzpDbAFk5/CJ9vUYFLaIsrT4VYCrdmLo9TIU0b561isS/6i4AQQzLmQ==",
+  "dgSpecHash": "LJxFaGNF5E0cDuqJp47r9FnaOJZ6KajBpH6nIwpCpjP5dxXLFLeKJkeZE6Yxmnc2+t135OxDMaftWBWgCpgy3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\Desktop\\Aulas-Senai-2020\\Aulas Lidiane\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\Desktop\\Senai-WSTower\\WebApiDb\\VS\\ExemploWebApiBd\\ExemploWebApiBd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
