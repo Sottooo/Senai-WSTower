@@ -118,7 +118,13 @@
         </member>
         <member name="M:WSTower.Controllers.SelecaoController.GetOrderByDescending">
             <summary>
-            Retorna todas as seleções ordenada.
+            Retorna todas as seleções ordenada por pontos.
+            </summary>
+            <returns>null</returns>
+        </member>
+        <member name="M:WSTower.Controllers.SelecaoController.GetOrderByNames">
+            <summary>
+            Retorna todas as seleções ordenada por nomes.
             </summary>
             <returns>null</returns>
         </member>
